@@ -1,9 +1,9 @@
-from Controller import *
+import controller
 
 
 def main():
-   controller = AppController()
-   controller.start()
+    cont = controller.AppController()
+    cont.start()
 
 
 main()
